@@ -10,7 +10,7 @@ const deck = [
   { 
     question: "What is a JavaScript variable?", 
     answer: "A container that holds a value." 
-  },
+  }/*,
   { 
     question: "How do you declare a variable in JavaScript?", 
     answer: "Using var, let, or const keyword followed by the variable name and an optional initial value." 
@@ -94,7 +94,7 @@ const deck = [
   { 
     question: "What is a closure in JavaScript?", 
     answer: "A function that remembers and accesses its lexical scope even when executed outside that scope." 
-  }
+  }*/
 ]
 
 export default deck;

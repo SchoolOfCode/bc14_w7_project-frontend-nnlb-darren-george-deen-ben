@@ -14,7 +14,7 @@ function App() {
   const [randomCard, setRandomCard] = useState(deck[0])
   const [flipToFront, setFlipToFront] = useState(true)
   
-  const [newCard, setNewCard] = useState({}); //state of cards in the deck
+  //const [newCard, setNewCard] = useState({}); //state of cards in the deck
   const [question, setQuestion] = useState(""); //text value of the question input
   const [answer, setAnswer] = useState(""); //text value of the answer input
 
@@ -39,7 +39,7 @@ function App() {
     const newCard1 = { question, answer };
     deck.push(newCard1)
     //const newDeck = [...deck, newCard];
-    setNewCard(newCard);
+    
     
     setQuestion("");
     setAnswer("");
