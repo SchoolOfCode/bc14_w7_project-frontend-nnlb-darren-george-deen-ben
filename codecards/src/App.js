@@ -64,7 +64,6 @@ function App() {
         setFlipToFront={setFlipToFront}
         randomCardClick={randomCardClick}
       />
-      <h1>Hello</h1>
       <AddCard 
       questionTextChange={questionTextChange} 
       answerTextChange={answerTextChange} 

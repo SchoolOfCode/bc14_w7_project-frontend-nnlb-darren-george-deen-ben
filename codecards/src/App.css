@@ -53,6 +53,7 @@
   width: 100%;
   position: fixed;
   top: 0;
+  /* To stop content from overflowing on to the header */
   z-index: 1000;
 }
 
@@ -105,10 +106,10 @@
   background-color: #263956;
   border: none;
   color: white;
-  padding: 15px 30px;
+  padding: 15px 15px;
   border-radius: 7px;
   font-weight: bold;
-  width: 25%;
+  width: 250px;
 }
 
 .addCardContainer {
@@ -116,7 +117,9 @@
   flex-direction: column;
   width: 50%;
   margin-inline: auto;
-  gap: 10%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .questionText,
@@ -125,4 +128,13 @@
   margin-bottom: 10px;
   border: none;
   padding: 5px 10px;
+}
+
+.addCard {
+  background-color: #263956;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  border-radius: 7px;
+  font-weight: bold;
 }
