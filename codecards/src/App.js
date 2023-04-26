@@ -36,6 +36,10 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <div className="landing-page-buttons">
+        <button>Create Card</button>
+        <button>Start Revising!</button>
+      </div>
       <AddCard questionTextChange={questionTextChange} answerTextChange={answerTextChange} handleAddClick={handleAddClick}/>
       <Revising />
       <Footer />
