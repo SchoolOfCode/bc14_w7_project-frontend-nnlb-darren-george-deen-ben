@@ -1,5 +1,10 @@
+#app-body {
+  background-color: #E9F2FA;
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -44,7 +49,13 @@
   background-color: #0c4768;
   color: #c8dfca;
   height: 120px;
-  /* position: fixed; */
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.header p {
+  margin: 0;
 }
 
 .logo {
@@ -59,17 +70,41 @@
   width: 5%;
 }
 
-.landing-page-buttons {
-  display: flex;
-  justify-content: space-around;
+.landing-buttons-container {
+  margin-inline: auto;
 
-  margin-top: 100px;
+}
+
+.landing-buttons {
+  background-color: #263956;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 7px;
+  font-weight: bold;
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 
 
-
-
 .footer {
+  width: 100%;
   position: fixed;
   bottom: 0;
+  background-color: #0c4768;
+  height: 100px;
+}
+
+.footer p {
+  color: white;
+  margin-top: 30px;
+}
+
+.new-card-button {
+  background-color: #263956;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 7px;
+  font-weight: bold;
 }

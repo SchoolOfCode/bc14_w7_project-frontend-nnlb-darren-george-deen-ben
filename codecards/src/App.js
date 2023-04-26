@@ -55,11 +55,11 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div id="app-body" className="App">
       <Header />
-      <div className="landing-page-buttons">
-        <button>Create Card</button>
-        <button>Start Revising!</button>
+      <div className="landing-buttons-container">
+        <button className="landing-buttons">Create Card</button>
+        <button className="landing-buttons">Start Revising!</button>
       </div>
       <AddCard 
       questionTextChange={questionTextChange} 

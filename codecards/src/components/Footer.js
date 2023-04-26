@@ -1,9 +1,12 @@
 import React from 'react';
 
 const Footer = () => {
+
+  const year = new Date();
+
   return (
     <footer className="footer">
-      I am the Footer
+    <p>Copyright &copy; {year.getFullYear()}</p>
     </footer>
   )
 }
