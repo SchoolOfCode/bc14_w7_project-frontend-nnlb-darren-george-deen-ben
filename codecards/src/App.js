@@ -36,11 +36,15 @@ function App() {
   } //sets the answer state value to the answer input value
 
   const handleAddClick = () => {
-    setNewCard({question: `${question}`, answer: `${answer}`});
-    deck.push(newCard);
-    setAnswer("");
+    const newCard1 = { question, answer };
+    deck.push(newCard1)
+    //const newDeck = [...deck, newCard];
+    setNewCard(newCard);
+    
     setQuestion("");
-  }// adds the card to the deck
+    setAnswer("");
+  }
+  // adds the card to the deck
   // console.log(deck1)
   
   console.log(deck)
