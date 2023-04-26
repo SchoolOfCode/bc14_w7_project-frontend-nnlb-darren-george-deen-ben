@@ -1,5 +1,6 @@
 #app-body {
   background-color: #E9F2FA;
+  height: 100vh;
 }
 
 .App {
@@ -49,6 +50,7 @@
   background-color: #0c4768;
   color: #c8dfca;
   height: 120px;
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -59,11 +61,10 @@
 }
 
 .logo {
-  width: 10%;
+  width: 5.5rem;
   /* z-index: 1000; */
   position: relative;
   top: 0px;
-  margin-left: -50px;
 }
 
 .profile-icon {
@@ -108,4 +109,20 @@
   border-radius: 7px;
   font-weight: bold;
   width: 25%;
+}
+
+.addCardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-inline: auto;
+  gap: 10%;
+}
+
+.questionText,
+.answerText,
+.addCard {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px 10px;
 }

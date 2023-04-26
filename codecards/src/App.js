@@ -57,14 +57,6 @@ function App() {
   return (
     <div id="app-body" className="App">
       <Header />
-      <div className="landing-buttons-container">
-        <button className="landing-buttons">Create Card</button>
-        <button className="landing-buttons">Start Revising!</button>
-      </div>
-      <AddCard 
-      questionTextChange={questionTextChange} 
-      answerTextChange={answerTextChange} 
-      handleAddClick={handleAddClick}/>
       
       <Revising 
         randomCard={randomCard} 
@@ -72,6 +64,13 @@ function App() {
         setFlipToFront={setFlipToFront}
         randomCardClick={randomCardClick}
       />
+      <h1>Hello</h1>
+      <AddCard 
+      questionTextChange={questionTextChange} 
+      answerTextChange={answerTextChange} 
+      handleAddClick={handleAddClick}
+      />
+      
       <Footer />
 
     </div>
