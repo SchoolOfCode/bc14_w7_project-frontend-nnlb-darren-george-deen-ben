@@ -1,9 +1,17 @@
 import React from 'react';
+import FlashCard from './flashcard/FlashCard';
 
-const Revising = () => {
+const Revising = ({randomCard, flipToFront, setFlipToFront, randomCardClick }) => {
   return (
     <section>
-      The Revising Bit Goes Here
+      <div className="flashcard-container">
+      <FlashCard 
+        randomCard={randomCard} 
+        flipToFront={flipToFront} 
+        setFlipToFront={setFlipToFront}
+        randomCardClick={randomCardClick}
+      />
+    </div>
     </section>
   )
 }
