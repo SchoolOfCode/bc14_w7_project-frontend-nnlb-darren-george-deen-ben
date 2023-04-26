@@ -40,7 +40,6 @@ function App() {
     deck.push(newCard1)
     //const newDeck = [...deck, newCard];
     
-    
     setQuestion("");
     setAnswer("");
   }
@@ -48,11 +47,6 @@ function App() {
   // console.log(deck1)
   
   console.log(deck)
-
-
-
-
-
 
   return (
     <div id="app-body" className="App">
