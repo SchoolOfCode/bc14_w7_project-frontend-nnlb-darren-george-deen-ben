@@ -19,7 +19,7 @@ function FlashCard({ randomCard, flipToFront, setFlipToFront, randomCardClick })
   console.log(randomCard)
 
   return (
-    <div className="container">
+    <div className="flashcard-container">
       <div className="row">
         <div className="col d-flex flex-column flex-md-row justify-content-around align-items-center">
           <div className="flip-card-outer" onClick={handleClick}>
@@ -35,10 +35,10 @@ function FlashCard({ randomCard, flipToFront, setFlipToFront, randomCardClick })
               </div>
             </div>
           </div>
-            <button className="new-card-button mt-4 rounded-3" onClick={randomCardClick}>New Card</button>
           </div>
         </div>
       </div>
+      <button className="new-card-button" onClick={randomCardClick}>New Card</button>
     </div> 
   );
 }
