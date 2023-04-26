@@ -9,13 +9,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
 
-  const [deck1, setDeck] = useState([]); //state of cards in the deck
-  const [question, setQuestion] = useState(""); //text value of the question input
-  const [answer, setAnswer] = useState(""); //text value of the answer input
   
   // Card-flipping functionality, see Revising.js
   const [randomCard, setRandomCard] = useState(deck[0])
   const [flipToFront, setFlipToFront] = useState(true)
+  
+  const [newCard, setNewCard] = useState({}); //state of cards in the deck
+  const [question, setQuestion] = useState(""); //text value of the question input
+  const [answer, setAnswer] = useState(""); //text value of the answer input
 
   const randomCardClick = () => {
     const randomIndex = Math.floor(Math.random() * deck.length);
@@ -35,13 +36,14 @@ function App() {
   } //sets the answer state value to the answer input value
 
   const handleAddClick = () => {
-    setDeck([...deck1, {question: `${question}`, answer: `${answer}`}]);
-    // console.log(deck)
+    setNewCard({question: `${question}`, answer: `${answer}`});
+    deck.push(newCard);
     setAnswer("");
     setQuestion("");
   }// adds the card to the deck
-  // console.log(deck)
-
+  // console.log(deck1)
+  
+  console.log(deck)
 
 
 
