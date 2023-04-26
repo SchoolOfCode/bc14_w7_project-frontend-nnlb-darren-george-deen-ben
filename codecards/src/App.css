@@ -42,16 +42,17 @@
   justify-content: space-evenly; 
   align-items: center;
   background-color: #0c4768;
-  color: #E9f2FA;
+  color: #c8dfca;
   height: 120px;
   /* position: fixed; */
 }
 
 .logo {
-  width: 20%;
-  z-index: 1000;
+  width: 10%;
+  /* z-index: 1000; */
   position: relative;
-  top: 50px;
+  top: 0px;
+  margin-left: -50px;
 }
 
 .profile-icon {

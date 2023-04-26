@@ -5,8 +5,9 @@ const Header = () => {
 
   return (
     <header className="header">
+      <img className="logo" src={require("../assets/logoFinal.png")} alt=""/>
       <h1>Code &lt;Cards&gt;</h1>
-      <img className="logo" src={require("../assets/logoIdea2.png")} alt=""/>
+      
       <p>
         Download
       </p>
