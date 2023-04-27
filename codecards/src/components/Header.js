@@ -8,12 +8,13 @@ const Header = () => {
       <img className="logo" src={require("../assets/logoFinal.png")} alt=""/>
       <h1>Code &lt;Cards&gt;</h1>
       
-      <p>
+      <span className="headerLink">
         Download
-      </p>
-      <p>
+      </span>
+
+      <span className="headerLink">
         FAQ/Support
-      </p>
+      </span>
       <img className="profile-icon" src={require("../assets/profile_white.png")} alt=""/>
     </header>
   )

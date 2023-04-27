@@ -34,6 +34,11 @@
   color: #61dafb;
 }
 
+.headerLink {
+  cursor: pointer;
+  
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -69,7 +74,7 @@
 }
 
 .profile-icon {
-  width: 5%;
+  width: 4em;
 }
 
 .landing-buttons-container {
@@ -94,12 +99,12 @@
   position: fixed;
   bottom: 0;
   background-color: #0c4768;
-  height: 100px;
+  height: 70px;
 }
 
 .footer p {
   color: white;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .new-card-button {
