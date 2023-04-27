@@ -59,6 +59,8 @@ function App() {
         randomCardClick={randomCardClick}
       />
       <AddCard 
+      question={question}
+      answer={answer}
       questionTextChange={questionTextChange} 
       answerTextChange={answerTextChange} 
       handleAddClick={handleAddClick}
