@@ -1,4 +1,4 @@
-<h1>No Nerd Left Behind presents: Code<Card> </h1>
+<h1>No Nerd Left Behind presents: Code`<`Card`>` </h1>
   The flashcard app for bootcampers! 
 
 <h2>What is Code<Card></h2>
