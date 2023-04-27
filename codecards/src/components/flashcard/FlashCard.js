@@ -19,7 +19,7 @@ function FlashCard({ randomCard, flipToFront, setFlipToFront, randomCardClick })
   console.log(randomCard)
 
   return (
-    <div className="flashcard-container">
+    <div data-testid="flashcard-component" className="flashcard-container">
       <div className="row">
         <div className="col d-flex flex-column flex-md-row justify-content-around align-items-center">
           <div className="flip-card-outer" onClick={handleClick}>

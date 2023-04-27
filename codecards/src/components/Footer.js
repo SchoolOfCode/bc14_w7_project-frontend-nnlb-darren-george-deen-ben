@@ -5,7 +5,7 @@ const Footer = () => {
   const year = new Date();
 
   return (
-    <footer className="footer">
+    <footer data-testid="footer-component" className="footer">
     <p>No Nerds Left Behind &copy; {year.getFullYear()}</p>
     </footer>
   )

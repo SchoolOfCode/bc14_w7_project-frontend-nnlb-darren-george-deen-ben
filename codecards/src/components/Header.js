@@ -4,7 +4,7 @@ import React from 'react';
 const Header = () => {
 
   return (
-    <header className="header">
+    <header data-testid="header-component" className="header">
       <img className="logo" src={require("../assets/logoFinal.png")} alt=""/>
       <h1>Code &lt;Cards&gt;</h1>
       
