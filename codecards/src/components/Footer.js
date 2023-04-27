@@ -6,6 +6,7 @@ const Footer = () => {
 
   return (
     <footer data-testid="footer-component" className="footer">
+    {/* fetch the current year */}
     <p>No Nerds Left Behind &copy; {year.getFullYear()}</p>
     </footer>
   )

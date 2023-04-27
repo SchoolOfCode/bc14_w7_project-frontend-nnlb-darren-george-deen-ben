@@ -5,6 +5,7 @@ import "./styles.scss";
 function FlashCard({ randomCard, flipToFront, setFlipToFront, randomCardClick }) {
   const [showBack, setShowBack] = useState(false);
 
+  // ensure card is set to front on load
   useEffect(() => {
     if (flipToFront) {
       setShowBack(false)
@@ -12,12 +13,14 @@ function FlashCard({ randomCard, flipToFront, setFlipToFront, randomCardClick })
     }
   }, [flipToFront, setFlipToFront])
 
+  // toggle card facing state
   function handleClick() {
       setShowBack(!showBack);
   }
 
   console.log(randomCard)
 
+  // JSX handling flippable card, see also 'styles.scss'
   return (
     <div data-testid="flashcard-component" className="flashcard-container">
       <div className="row">
